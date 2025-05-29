@@ -1,0 +1,56 @@
+{
+  "DehghaniITEES21": {
+    "title": "An overview of the assessment metrics of the concept of resilience in electrical grids",
+    "author": "Arash Dehghani, Mostafa Sedighizadeh, Farhad Haghjoo",
+    "institute": "Shahid Beheshti University",
+    "year": "2021",
+    "entry_type": "article"
+  },
+  "AhmadARXIV25": {
+    "title": "Logarithmic resilience risk metrics that address the huge variations in blackout cost",
+    "author": "Arslan Ahmad, Ian Dobson",
+    "institute": "Iowa State University",
+    "year": "2025",
+    "journal": "arXiv",
+    "entry_type": "article"
+  },
+  "BillintonGTD06": {
+    "title": "Application of adverse and extreme adverse weather: modelling in transmission and distribution system reliability evaluation",
+    "author": "Roy Billinton, G Singh",
+    "year": "2006",
+    "journal": "IEE Proceedings-Generation, Transmission and Distribution",
+    "volume": "153",
+    "number": "1",
+    "pages": "115-120",
+    "publisher": "IET",
+    "entry_type": "book"
+  },
+  "AhmadCIRED24": {
+    "title": "Quantifying distribution system resilience from utility data: large event risk and benefits of investments",
+    "author": "Ahmad, Arslan and Dobson, Ian",
+    "year": "2024",
+    "month": "11",
+    "organization": "CIRED Workshop on Resilience of Electric Distribution Systems, Chicago, IL USA",
+    "entry_type": "inproceedings"
+  },
+  "AhmadPS24": {
+    "title": "Towards using utility data to quantify how investments would have increased the wind resilience of distribution systems",
+    "author": "Ahmad, Arslan and Dobson, Ian",
+    "year": "2024",
+    "journal": "IEEE Transactions on Power Systems",
+    "number": "4",
+    "volume": "39",
+    "pages": "5956--5968",
+    "entry_type": "article"
+  },
+  "BaikNE20": {
+    "title": "Estimating what US residential customers are willing to pay for resilience to large electricity outages of long duration",
+    "author": "Baik, Sunhee and Davis, Alexander L and Park, Jun Woo and Sirinterlikci, Selin and Morgan, M Granger",
+    "year": "2020",
+    "journal": "Nature Energy",
+    "number": "3",
+    "volume": "5",
+    "pages": "250--258",
+    "entry_type": "article"
+  }
+}

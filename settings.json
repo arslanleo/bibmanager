@@ -1,0 +1,32 @@
+{
+  "field_order": [
+    "title",
+    "author",
+    "year",
+    "month",
+    "journal",
+    "edition",
+    "number",
+    "volume",
+    "pages",
+    "publisher",
+    "organization",
+    "institution",
+    "address",
+    "annote",
+    "booktitle",
+    "chapter",
+    "editor",
+    "howpublished",
+    "school",
+    "series",
+    "crossref",
+    "note",
+    "key",
+    "type"
+  ],
+  "match_options": [
+    "contains"
+  ],
+  "fuzzy_sensitivity": 5
+}

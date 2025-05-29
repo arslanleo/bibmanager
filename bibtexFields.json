@@ -1,0 +1,95 @@
+{
+  "entry_types": {
+    "article": {
+      "description": "An article from a journal or magazine.",
+      "required": ["author", "title", "journal", "year"],
+      "optional": ["volume", "number", "pages", "month", "note"]
+    },
+    "book": {
+      "description": "A book with an explicit publisher.",
+      "required": ["author or editor", "title", "publisher", "year"],
+      "optional": ["volume or number", "series", "address", "edition", "month", "note"]
+    },
+    "booklet": {
+      "description": "A work that is printed and bound, but without a named publisher or sponsoring institution.",
+      "required": ["title"],
+      "optional": ["author", "howpublished", "address", "month", "year", "note"]
+    },
+    "inbook": {
+      "description": "A part of a book, e.g., a chapter, section, or whatever and/or a range of pages.",
+      "required": ["author or editor", "title", "chapter and/or pages", "publisher", "year"],
+      "optional": ["volume or number", "series", "type", "address", "edition", "month", "note"]
+    },
+    "incollection": {
+      "description": "A part of a book having its own title.",
+      "required": ["author", "title", "booktitle", "publisher", "year"],
+      "optional": ["editor", "volume or number", "series", "type", "chapter", "pages", "address", "edition", "month", "note"]
+    },
+    "inproceedings": {
+      "description": "An article in a conference proceedings.",
+      "required": ["author", "title", "booktitle", "year"],
+      "optional": ["editor", "volume or number", "series", "pages", "address", "month", "organization", "publisher", "note"]
+    },
+    "manual": {
+      "description": "Technical documentation.",
+      "required": ["title"],
+      "optional": ["author", "organization", "address", "edition", "month", "year", "note"]
+    },
+    "mastersthesis": {
+      "description": "A master's thesis.",
+      "required": ["author", "title", "school", "year"],
+      "optional": ["type", "address", "month", "note"]
+    },
+    "misc": {
+      "description": "Use this type when nothing else fits.",
+      "required": [],
+      "optional": ["author", "title", "howpublished", "month", "year", "note"]
+    },
+    "phdthesis": {
+      "description": "A Ph.D. thesis.",
+      "required": ["author", "title", "school", "year"],
+      "optional": ["type", "address", "month", "note"]
+    },
+    "proceedings": {
+      "description": "Conference proceedings.",
+      "required": ["title", "year"],
+      "optional": ["editor", "volume or number", "series", "address", "publisher", "note", "month", "organization"]
+    },
+    "techreport": {
+      "description": "A report published by a school or other institution, usually numbered within a series.",
+      "required": ["author", "title", "institution", "year"],
+      "optional": ["type", "number", "address", "month", "note"]
+    },
+    "unpublished": {
+      "description": "A document having an author and title, but not formally published.",
+      "required": ["author", "title", "note"],
+      "optional": ["month", "year"]
+    }
+  },
+  "fields": {
+    "address": "Usually the address of the publisher or other institution. For major publishing houses, just give the city. For small publishers, specifying the complete address might help the reader.",
+    "annote": "An annotation. Not used by the standard bibliography styles, but used by others that produce an annotated bibliography (e.g., annote). The field starts a new sentence and hence the first word should be capitalized.",
+    "author": "The name(s) of the author(s), in BibTeX name format.",
+    "booktitle": "Title of a book, part of which is being cited. For book entries use the title field.",
+    "chapter": "A chapter (or section or whatever) number.",
+    "crossref": "The database key of the entry being cross-referenced.",
+    "edition": "The edition of a book (e.g., 'Second'). This should be an ordinal, and should have the first letter capitalized, as shown above; the standard styles convert to lowercase when necessary.",
+    "editor": "Name(s) of editor(s), in BibTeX name format. If there is also an author field, then the editor field gives the editor of the book or collection in which the reference appears.",
+    "howpublished": "How something strange has been published.",
+    "institution": "Institution sponsoring a technical report.",
+    "journal": "Journal name. Abbreviations are provided for many journals.",
+    "key": "Used for alphabetizing, cross-referencing, and creating a label when the author and editor information is missing. This field should not be confused with the key that appears in the \\cite command and at the beginning of the database entry.",
+    "month": "The month in which the work was published or, for an unpublished work, in which it was written. For reasons of consistency the standard three-letter abbreviations (jan, feb, mar, etc.) should be used.",
+    "note": "Any additional information that can help the reader.",
+    "number": "The number of a journal, magazine, technical report, or work in a series. An issue of a journal or magazine is usually identified by its volume and number; a technical report normally has a number; and sometimes books in a named series carry numbers.",
+    "organization": "The organization that sponsors a conference or that publishes a manual.",
+    "pages": "One or more page numbers or range of numbers. (e.g., 42-111 or 7,41, 73-97 or 43+, where the '+' indicates pages that do not form a simple range)",
+    "publisher": "The publisher's name.",
+    "school": "The name of the school where the thesis was written.",
+    "series": "The name of a series or set of books. When citing an entire book, the title field gives its title and an optional series field gives the name of a series or multivolume set in which the book is published.",
+    "title": "The work's title, typed as explained in BibTeX documentation.",
+    "type": "The type of a technical report (e.g., 'Research Note'). This name is used instead of the default 'Technical Report'. For the entry type phdthesis you could use the term 'Ph.D. dissertation' by specifying: type = '{Ph.D.} dissertation'. Similarly, for the inbook and incollection entry types you can get 'section 1.2' instead of the default 'chapter 1.2' with chapter = '1.2' and type = 'Section'.",
+    "volume": "The volume of a journal or multivolume book.",
+    "year": "The year of publication or, for an unpublished work, the year it was written. Generally, it should consist of four numerals, such as 1984, although the standard styles can handle any year whose last four nonpunctuation characters are numerals, such as 'about 1984'."
+  }
+}

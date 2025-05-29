@@ -1,0 +1,29 @@
+@inproceedings{AhmadCIRED24,
+  title        = {Quantifying distribution system resilience from utility data: large event risk and benefits of investments},
+  author       = {Ahmad, Arslan and Dobson, Ian},
+  year         = {2024},
+  month        = {11},
+  organization = {CIRED Workshop on Resilience of Electric Distribution Systems, Chicago, IL USA}
+}
+
+@article{AhmadPS24,
+  title        = {Towards using utility data to quantify how investments would have increased the wind resilience of distribution systems},
+  author       = {Ahmad, Arslan and Dobson, Ian},
+  year         = {2024},
+  journal      = {IEEE Transactions on Power Systems},
+  volume       = {39},
+  number       = {4},
+  pages        = {5956--5968},
+  doi          = {https://doi.org/10.1109/TPWRS.2023.3342729}
+}
+
+@article{BaikNE20,
+  title        = {Estimating what US residential customers are willing to pay for resilience to large electricity outages of long duration},
+  author       = {Baik, Sunhee and Davis, Alexander L and Park, Jun Woo and Sirinterlikci, Selin and Morgan, M Granger},
+  year         = {2020},
+  journal      = {Nature Energy},
+  publisher    = {Nature Publishing Group UK London},
+  volume       = {5},
+  number       = {3},
+  pages        = {250--258}
+}
